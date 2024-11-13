@@ -1,11 +1,11 @@
-:root {
+body {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
 
   color-scheme: light dark;
   color: rgba(1, 0, 0, 0.87);
-  background-color: #298b43;
+  background-color: #dbd8d8;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -55,7 +55,7 @@ button:focus-visible {
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;
-    background-color: #ffffff;
+    background-color: #ededed;
   }
   a:hover {
     color: #747bff;
@@ -68,8 +68,13 @@ button:focus-visible {
 
 header {
   margin-bottom: 2em;
-  margin-top: 2em;
-  
+  position: relative;
+  background-color: #298b43;
+  padding: 1em;
+}
+
+footer {
+  padding: 1em;
 }
 
 /* Container Styles */
@@ -77,7 +82,7 @@ header {
   width: 95%;
   max-width: 1000px;
   padding-bottom: 2em;
-  margin: 0 auto 2em;
+  margin: -2.5em auto 2em;
   background: #fff;
   border-radius: .5em;
   box-shadow: 0 3px rgba(0, 0, 0, .1);
@@ -98,10 +103,15 @@ header {
 #navbar a:hover,
 #navbar .active {
   color: #fff;
-  background: #3b80d1;
+  background: #217237;
 }
 
 .navbarLink {
   display: inline; 
   padding: 0.5em;
+}
+
+.container p {
+  margin-left: 2%;
+  margin-right: 2%;
 }
