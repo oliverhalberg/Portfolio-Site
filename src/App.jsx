@@ -1,10 +1,10 @@
 import { Routes, Route } from 'react-router-dom'
 import './App.css'
-import Header from './Header'
-import Home from './Home'
-import Footer from './Footer'
-import About from './About'
-import Projects from './Projects'
+import Header from './components/Header'
+import Home from './components/Home'
+import Footer from './components/Footer'
+import About from './components/About'
+import Projects from './components/Projects'
 
 function App() {
   return (
