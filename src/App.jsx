@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import { Routes, Route } from 'react-router-dom'
 import './App.css'
 import Header from './Header'
@@ -8,8 +7,6 @@ import About from './About'
 import Projects from './Projects'
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <div className='container'>
       <Header />
