@@ -1,0 +1,10 @@
+{
+    "projects" : [
+        {
+            "id": 1,
+            "title": "Test",
+            "technologies": ["HTML", "CSS", "JavaScript", "React"],
+            "description": "Placeholder text goes here."
+        }
+    ]
+}
