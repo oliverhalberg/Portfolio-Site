@@ -73,6 +73,15 @@ header {
   padding: 1em;
 }
 
+header span {
+  min-width: fit-content;
+  z-index: 999;
+  float: left;
+  width: 10%;
+  font-weight: bold;
+  padding-left: 1em;
+}
+
 footer {
   padding: 1em;
 }
@@ -90,6 +99,10 @@ footer {
 }
 
 /* Navbar */
+#navbar {
+  width: 90%;
+}
+
 #navbar a {
   font-size: .95em;
   color: #222;
