@@ -2,7 +2,7 @@
     "projects" : [
         {
             "id": 1,
-            "title": "Test",
+            "title": "Test Project",
             "technologies": ["HTML", "CSS", "JavaScript", "React"],
             "description": "Placeholder text goes here."
         }
