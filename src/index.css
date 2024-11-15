@@ -132,4 +132,11 @@ footer {
 #homepageImage {
   display: block;
   width: 20%;
+  margin-left: 1em;
+  margin-right: 2em;
+}
+
+#homepageContent {
+  display: flex;
+  flex-direction: row-reverse;
 }
