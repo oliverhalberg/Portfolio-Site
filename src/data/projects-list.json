@@ -11,7 +11,7 @@
             "id": 1,
             "title": "Shape Quest",
             "technologies": ["Java", "Android Studio", "Git", "PlantUML"],
-            "description": "In Spring 2023, I took a software development class at Vassar College (Computer Science III: Software Design and Implementation) that focused on Android development in groups. My partner for the course, Caroline Semel, and I designed, developed, and tested different iterations of our project until we reached the final result: a fully functional combat/adventure game.",
+            "description": "In spring 2023, I took a software development class at Vassar College (Computer Science III: Software Design and Implementation) that focused on Android development in groups. My partner for the course, Caroline Semel, and I designed, developed, and tested different iterations of our project until we reached the final result: a fully functional combat/adventure game.",
             "githubLink": "https://github.com/oliverhalberg/Shape-Quest"
         },
         {
