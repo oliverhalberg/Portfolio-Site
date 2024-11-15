@@ -21,6 +21,7 @@ Project.PropTypes = {
         technologies: PropTypes.arrayOf(PropTypes.string).isRequired,
         title: PropTypes.string.isRequired,
         description: PropTypes.string.isRequired,
-        githubLink: PropTypes.string
+        githubLink: PropTypes.string,
+        imgPath: PropTypes.string
     })
 }
