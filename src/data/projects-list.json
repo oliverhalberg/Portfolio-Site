@@ -18,7 +18,7 @@
             "id": 2,
             "title": "Portfolio Website",
             "technologies": ["HTML", "CSS", "JavaScript", "React", "React Router"],
-            "description": "I created a personal portfolio website using React to showcase my experience and projects. I used example code from Treehouse courses as reference material, and learned how to design, create, and style the custom React components I needed to assemble the website.",
+            "description": "I created a personal portfolio website (oliverhalberg.com) using React to showcase my experience and projects. I used example code from Treehouse courses as reference material, and learned how to design, create, and style the custom React components I needed to assemble the website.",
             "githubLink": "https://github.com/oliverhalberg/Portfolio-Site"
         }
     ]
