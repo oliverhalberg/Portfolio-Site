@@ -1,3 +1,4 @@
+import TreehouseWidget from "./TreehouseWidget";
 
 const About = () => {
     return (
@@ -36,6 +37,7 @@ const About = () => {
                 fashion.
             </p>
             {/* Treehouse widget here? */}
+            <TreehouseWidget />
         </>
     );
 }
