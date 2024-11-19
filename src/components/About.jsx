@@ -4,6 +4,7 @@ const About = () => {
         <>
             <h2>About Me</h2>
             <p>I am an amateur software developer, open-source enthusiast, and ANOTHER ADJECTIVE who enjoys learning new technologies and skills. Outside of computer science, I am a musician and proud nerd who can often be found playing video games or tabletop role-playing games, reading, or playing music.</p>
+            <p>Shelburne, Vermont, United States</p>
             <h2>Education</h2>
             <p>Vassar College</p> 
             <p>August 2020 - May 2024</p>
