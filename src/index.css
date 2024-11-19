@@ -131,12 +131,24 @@ footer {
 
 #homepageImage {
   display: block;
-  width: 20%;
-  margin-left: 1em;
-  margin-right: 2em;
+  /* Adjust margins once final image is in place */
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1.75em;
+  margin-bottom: auto;
+  padding: 1em;
+}
+
+#homepageImageDiv {
+  flex: 20%;
+  background-color: #535bf2;
 }
 
 #homepageContent {
-  display: flex;
+  flex: 80%;
   flex-direction: row-reverse;
+}
+
+#homepageDiv {
+  display: flex;
 }
