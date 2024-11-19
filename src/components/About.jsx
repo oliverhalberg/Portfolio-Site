@@ -25,6 +25,7 @@ const About = () => {
                 In summer 2024, I enrolled in a series of courses through Treehouse in order to learn the basics of full-stack 
                 web development, including JavaScript, Node.js, Express.js, SQL basics, and React.js.
             </p>
+            <TreehouseWidget />
             <h2>Work Experience</h2>
             <h3>Computer Science Department Coach, Vassar College</h3>
             <p>September 2022 - May 2024</p>
@@ -36,8 +37,6 @@ const About = () => {
                 valuable experience debugging code, providing constructive feedback, and communicating computer science concepts in an understandable
                 fashion.
             </p>
-            {/* Treehouse widget here? */}
-            <TreehouseWidget />
         </>
     );
 }
