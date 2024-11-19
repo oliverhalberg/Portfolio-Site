@@ -146,9 +146,73 @@ footer {
 
 #homepageContent {
   flex: 80%;
-  flex-direction: row-reverse;
 }
 
 #homepageDiv {
   display: flex;
+}
+
+/* About */
+
+#aboutContent {
+  display: block;
+}
+
+/* Treehouse Widget */
+#widgetFootnote{
+  font-style: italic;
+}
+
+#treehouseWidget {
+  border-style: dashed;
+  border-color: #217237;
+  margin: auto;
+  max-width: 80%;
+  display: flex;
+}
+
+#treehouseWidgetText {
+  text-align: left;
+  flex: 25%;
+  border: #1a1a1a dashed;
+  padding: 1em;
+  margin: auto;
+}
+
+#treehouseWidgetText p {
+  margin-top: 2em;
+}
+
+#pointsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  border:#1a1a1a solid;
+  padding: 1em;
+  margin: 1em;
+}
+
+#pointsContainer p{
+  text-align: center;
+}
+
+#pointsContainer h4 {
+  margin: auto;
+}
+
+#pointDisplayContainer {
+  display: flex;
+  flex-wrap: wrap;
+  border: #213547 dotted;
+}
+
+.pointDisplay {
+  display: block;
+  background-color: #535bf2;
+  padding: 0.5em;
+  margin: 1em;
+  width: 20%;
+}
+
+.total {
+  background-color: #213547;
 }
