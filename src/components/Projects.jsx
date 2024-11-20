@@ -5,7 +5,7 @@ const projects = projectsList.projects;
 
 const Projects = () => {
     return (
-        <div>
+        <div id="projectsContainer">
             {projects.map((project) => <Project key={project.id} data={project} />)}
         </div>
     );

@@ -1,17 +1,21 @@
 import PropTypes from 'prop-types';
 const Project = ({ data }) => {
     return (
-        <div>
-            <h2>{data.title}</h2>
+        <div className='project'>
+            <div className='projectText'>
+                <h2>{data.title}</h2>
+                <h3>Technologies used:</h3>
+                <ul>
+                    {data.technologies.map((tech) => <li className='projectTech'>{tech}</li>)}
+                </ul>
+                <p>{data.description}</p>
+            </div>
             {/* Include image, if present (not all projects might have associated images) */}
-            {data.imgPath ? <img src={data.imgPath} /> : null}
-            <h3>Technologies used:</h3>
-            <ul>
-                {data.technologies.map((tech) => <li>{tech}</li>)}
-            </ul>
-            <p>{data.description}</p>
+            <div className={data.imgPath ? 'projectImgDiv' : 'projectImgDivNoImg'}>
+                {data.imgPath ? <img src={data.imgPath} className='projectImg' /> : null}
+            </div>
             {/* Include link to source code on Github, if present */}
-            {data.githubLink ? <a href={data.githubLink}>Github</a> : null}
+            {data.githubLink ? <a href={data.githubLink} className='projectGithubLink'>Github</a> : null}
         </div>
     );
 }
