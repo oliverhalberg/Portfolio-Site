@@ -216,3 +216,9 @@ footer {
 .total {
   background-color: #213547;
 }
+
+/* Projects */
+
+.projectTech {
+  margin: 0.5em;
+}

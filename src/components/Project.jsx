@@ -6,7 +6,7 @@ const Project = ({ data }) => {
                 <h2>{data.title}</h2>
                 <h3>Technologies used:</h3>
                 <ul>
-                    {data.technologies.map((tech) => <li className='projectTech'>{tech}</li>)}
+                    {data.technologies.map((tech) => <span className='projectTech'>{tech}</span>)}
                 </ul>
                 <p>{data.description}</p>
             </div>
