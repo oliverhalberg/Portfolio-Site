@@ -219,6 +219,25 @@ footer {
 
 /* Projects */
 
+.project {
+  display: flex;
+  border:#217237 dashed;
+}
+
+.projectText {
+  flex: 75%;
+  margin: auto;
+  text-align: left;
+  border: darkblue dotted;
+  padding: 1em;
+}
+
+.projectImgDiv {
+  border: #1a1a1a solid;  
+  flex: 25%;
+  margin: auto;
+}
+
 .projectTech {
   margin: 0.5em;
 }
