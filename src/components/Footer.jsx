@@ -4,9 +4,8 @@ const Footer = () => {
     return (
         <footer>
             <span> &copy;{currentYear} Oliver Halberg </span>
-            <span>
-                <a href="https://www.linkedin.com/in/oliver-halberg" className="externalLink">LinkedIn</a>
-            </span>
+            <br />
+            <a href="https://www.linkedin.com/in/oliver-halberg" className="link">LinkedIn</a>
         </footer>
     );
 }
