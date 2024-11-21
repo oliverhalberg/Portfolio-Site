@@ -206,17 +206,16 @@ footer {
 }
 
 #treehouseWidget {
-  border-style: dashed;
-  border-color: #217237;
+  border: var(--main-primary) solid 0.5em;
+  border-radius: 0.5em;
   margin: auto;
   max-width: 80%;
   display: flex;
 }
 
 #treehouseWidgetText {
-  text-align: left;
+  text-align: center;
   flex: 40%;
-  border: #1a1a1a dashed;
   padding: 1em;
   margin: auto;
 }
@@ -228,7 +227,6 @@ footer {
 #pointsContainer {
   display: flex;
   flex-wrap: wrap;
-  border:#1a1a1a solid;
   padding: 1em;
   margin: 1em;
 }
@@ -244,20 +242,17 @@ footer {
 #pointDisplayContainer {
   display: flex;
   flex-wrap: wrap;
-  border: #213547 dotted;
+  text-align: center;
+  margin: auto;
 }
 
 .pointDisplay {
   display: block;
-  background-color: #535bf2;
+  flex: 20%;
   padding: 0.5em;
-  margin: 1em;
-  width: 20%;
+  margin: 0.5em;
 }
 
-.total {
-  background-color: #213547;
-}
 
 /* Projects */
 
