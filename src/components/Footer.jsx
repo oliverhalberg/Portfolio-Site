@@ -5,7 +5,7 @@ const Footer = () => {
         <footer>
             <span> &copy;{currentYear} Oliver Halberg </span>
             <br />
-            <a href="https://www.linkedin.com/in/oliver-halberg">LinkedIn</a>
+            <a href="https://www.linkedin.com/in/oliver-halberg" className="externalLink">LinkedIn</a>
         </footer>
     );
 }
