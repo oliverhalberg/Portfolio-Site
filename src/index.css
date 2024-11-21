@@ -253,7 +253,7 @@ footer {
 .projectText {
   flex: 60%;
   margin: auto;
-  text-align: left;
+  text-align: center;
   border: darkblue dotted;
   padding: 1em;
 }
