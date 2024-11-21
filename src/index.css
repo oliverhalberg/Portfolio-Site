@@ -250,7 +250,7 @@ footer {
 }
 
 .projectText {
-  flex: 75%;
+  flex: 60%;
   margin: auto;
   text-align: left;
   border: darkblue dotted;
@@ -259,7 +259,7 @@ footer {
 
 .projectImgDiv {
   border: #1a1a1a solid;  
-  flex: 25%;
+  flex: 40%;
   margin: auto;
 }
 

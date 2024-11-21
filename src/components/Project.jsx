@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types';
-const Project = ({ data }) => {
+const Project = ({ data, reverse }) => {
     return (
-        <div className='project'> {/* TODO: Add reverse */}
+        <div className='project' style={{flexDirection: reverse? 'row-reverse' : 'row'}}>
             <div className='projectText'>
                 <h2>{data.title}</h2>
                 <h3>Technologies used:</h3>

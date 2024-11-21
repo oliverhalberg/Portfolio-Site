@@ -6,7 +6,7 @@ const projects = projectsList.projects;
 const Projects = () => {
     return (
         <div id="projectsContainer">
-            {projects.map((project) => <Project key={project.id} data={project} />)}
+            {projects.map((project, i) => <Project key={project.id} data={project} reverse={i%2 === 0}/>)}
         </div>
     );
 }
