@@ -1,9 +1,9 @@
-const pdfpath = ""; //TODO
+const pdfpath = "/src/data/oliverhalberg.pdf";
 const ResumeDisplay = () => {
     return(
         <div>
-            <object data={""}>
-                <p>Something went wrong!</p>
+            <object id="resumeDisplay" data={pdfpath}>
+                <p>Something went wrong, sorry!</p>
             </object>
         </div>
     );
