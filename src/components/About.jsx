@@ -11,7 +11,7 @@ const About = () => {
             <h2>Education</h2>
             <div id="educationContainer">
                 <h3>Vassar College</h3>
-                <p>August 2020 - May 2024</p>
+                <p className="educationDate">August 2020 - May 2024</p>
                 <div className="education">
                     <div class="educationList">
                         <p>
@@ -33,8 +33,8 @@ const About = () => {
             <div id="otherCourses">
                 <h2>Other courses/Certifications</h2>
                 <div className="course-cert">
-                    <h3>Humble Bundle: Full Stack JavaScript + Learn React Track</h3>
-                    <p>July 2024 - November 2024</p>
+                    <h3>Treehouse - Humble Bundle: Full Stack JavaScript + Learn React Track</h3>
+                    <p className="educationDate">July 2024 - November 2024</p>
                     <p>
                         In July 2024, I enrolled in a series of courses through Treehouse in order to learn the basics of full-stack
                         web development, including JavaScript, Node.js, Express.js, SQL basics, and React.js.
@@ -46,7 +46,7 @@ const About = () => {
                 <h2>Relevant Work Experience</h2>
                 <div className="work">
                     <h3>Computer Science Department Coach, Vassar College</h3>
-                    <p>September 2022 - May 2024</p>
+                    <p className="educationDate">September 2022 - May 2024</p>
                     <p>
                         During my third and fourth years at Vassar College, I was hired by the Computer Science Department to work as a student coach
                         for three different intermediate-level computer science courses (Computer Science II: Data Structures and Algorithms,

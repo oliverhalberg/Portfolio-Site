@@ -117,7 +117,7 @@ footer {
   transition: background-color 0.3s ease;
   color: var(--link-color);
   border-radius: 0.5em;
-  padding: 0.5em;
+  padding: 0.75em;
   text-align: center;
 }
 .externalLink:hover {
@@ -152,6 +152,10 @@ footer {
   padding: 0.5em;
 }
 
+#nameSpan {
+  color: var(--link-color);
+}
+
 .container p {
   margin-left: 2%;
   margin-right: 2%;
@@ -174,6 +178,7 @@ footer {
 
 #homepageContent {
   flex: 80%;
+  text-align: left;
 }
 
 #homepageDiv {
@@ -184,10 +189,27 @@ footer {
 
 #aboutContent {
   display: block;
+  text-align: left;
+}
+
+.aboutMe {
+  width: 45%;
+  margin: auto;
+  text-align: center;
+}
+
+#aboutContent h2, h3 {
+  text-align: center;
 }
 
 .education {
   display: block;
+  margin: 0.5em;
+  width: 85%;
+}
+
+.educationDate {
+  text-align: center;
 }
 
 .educationList {
@@ -196,13 +218,26 @@ footer {
   margin: auto;
 }
 
+.course-cert {
+  width: 85%;
+  margin: auto;
+}
+
+#workExperience {
+  width: 85%;
+  margin: auto;
+}
+
 .relevantCoursework {
   flex: 60%;
+  margin: 0.5em;
 }
 
 /* Treehouse Widget */
 #widgetFootnote{
   font-style: italic;
+  text-align: center;
+  font-size: 80%;
 }
 
 #treehouseWidget {
@@ -256,28 +291,41 @@ footer {
 
 /* Projects */
 
+#projectsContainer {
+  width: 85%;
+  margin: auto;
+}
+
+.projectDivider {
+  border-top: 0.75px dashed var(--link-color);
+  width: 75%;
+}
+
 .project {
   display: flex;
-  border:#217237 dashed;
+  padding: 0.5em;
 }
 
 .projectText {
   flex: 60%;
   margin: auto;
   text-align: center;
-  border: darkblue dotted;
   padding: 1em;
 }
 
 .projectImgDiv {
-  border: #1a1a1a solid;  
   flex: 40%;
   margin: auto;
 }
 
 .projectTech {
   margin: 0.5em;
-  background-color: #2da34d;
+  background-color: #37c25c;
   padding: 0.5em;
-  border-radius: 0.5em;
+  border-radius: 1em;
+  text-align: center;
+}
+
+.projectDescription {
+  text-align: left;
 }

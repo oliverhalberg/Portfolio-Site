@@ -6,7 +6,7 @@ const Project = ({ data, reverse }) => {
                 <h2>{data.title}</h2>
                 <h3>Technologies used:</h3>
                 {data.technologies.map((tech) => <span className='projectTech' key={tech}>{tech}</span>)}
-                <p>{data.description}</p>
+                <p className='projectDescription'>{data.description}</p>
                 {/* Include link to source code on Github, if present */}
                 {data.githubLink ? <p><a href={data.githubLink} className='externalLink'>Github</a></p> : null}
             </div>
