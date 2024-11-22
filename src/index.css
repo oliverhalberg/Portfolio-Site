@@ -169,8 +169,32 @@ footer {
 }
 
 #homepageDiv {
-  display: flex;
+  display: block;
 }
+
+#shortcutsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 1em;
+}
+
+.shortcutContainer {
+  flex: 20%;
+}
+
+.shortcutContainer img {
+  max-width: 35%;
+  height: auto;
+  background-color: var(--main-primary);
+  padding: 2em;
+  border-radius: 1em;
+}
+
+.shortcutContainer img:hover {
+  background-color: var(--main-secondary);
+
+}
+
 
 /* About */
 
