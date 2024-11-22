@@ -161,20 +161,7 @@ footer {
   margin-right: 2%;
 }
 
-#homepageImage {
-  display: block;
-  /* Adjust margins once final image is in place */
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 1.75em;
-  margin-bottom: auto;
-  padding: 1em;
-}
-
-#homepageImageDiv {
-  flex: 20%;
-  background-color: #535bf2;
-}
+/* Home */
 
 #homepageContent {
   flex: 80%;
@@ -328,4 +315,11 @@ footer {
 
 .projectDescription {
   text-align: left;
+}
+
+/* Resume */
+
+#resumeDisplay {
+  width: 85%;
+  height: 1110px;
 }
