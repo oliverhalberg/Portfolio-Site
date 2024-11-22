@@ -83,15 +83,16 @@ header {
   position: relative;
   background-color: var(--main-primary);
   padding: 1em;
+  display: flex;
 }
 
 header span {
   min-width: fit-content;
   z-index: 999;
   float: left;
-  width: 10%;
   font-weight: bold;
-  padding-left: 1em;
+  flex: 25%;
+  padding-right: 5em;
 }
 
 
@@ -111,6 +112,11 @@ footer {
   overflow: hidden;
 }
 
+.container p {
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
 /* External Links */
 .externalLink {
   background-color: var(--main-primary);
@@ -128,6 +134,7 @@ footer {
 /* Navbar */
 #navbar {
   width: 90%;
+  flex: 100%;
 }
 
 #navbar a {
@@ -156,10 +163,6 @@ footer {
   color: var(--link-color);
 }
 
-.container p {
-  margin-left: 2%;
-  margin-right: 2%;
-}
 
 /* Home */
 
@@ -308,8 +311,9 @@ footer {
 }
 
 .projectDivider {
-  border-top: 0.75px dashed var(--link-color);
+  border-top: 3px solid var(--link-color);
   width: 75%;
+  color: var(--link-active-color);
 }
 
 .project {
