@@ -9,10 +9,6 @@ const Home = () => {
             }
             <h3>Portfolio Website - Oliver Halberg</h3>
             <div id="homepageDiv">
-                { /* Placeholder image */}
-                <div id="homepageImageDiv">
-                    <img id="homepageImage" src="../public/vite.svg" />
-                </div>
                 <div id="homepageContent">
                     <p>
                         I am a recent computer science graduate seeking remote software development roles. I have experience with a variety
