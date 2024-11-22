@@ -7,6 +7,7 @@
   --link-active-color: #fff;
   --default-link-color: #646cff;
   --default-link-hover-color: #535bf2;
+  --tech-green: #37c25c;
 }
 
 
@@ -195,7 +196,6 @@ footer {
 
 .shortcutContainer img:hover {
   background-color: var(--main-secondary);
-
 }
 
 
@@ -216,20 +216,24 @@ footer {
   text-align: center;
 }
 
-.education {
-  display: block;
-  margin: 0.5em;
+#educationContainer {
   width: 85%;
+  margin: auto;
 }
 
-.educationDate {
+.education {
+  display: flex;
+  margin: 0.5em;
+}
+
+.dateRange {
   text-align: center;
 }
 
 .educationList {
-  flex: 40%;
-  text-align: center;
-  margin: auto;
+  flex: 35%;
+  text-align: left;
+  margin: 0 auto au;
 }
 
 .course-cert {
@@ -237,14 +241,13 @@ footer {
   margin: auto;
 }
 
+.relevantCoursework {
+  flex: 65%;
+}
+
 #workExperience {
   width: 85%;
   margin: auto;
-}
-
-.relevantCoursework {
-  flex: 60%;
-  margin: 0.5em;
 }
 
 /* Treehouse Widget */
@@ -335,7 +338,7 @@ footer {
 
 .projectTech {
   margin: 0.5em;
-  background-color: #37c25c;
+  background-color: var(--tech-green);
   padding: 0.5em;
   border-radius: 1em;
   text-align: center;
