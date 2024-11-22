@@ -1,3 +1,6 @@
+import Shortcut from "./Shortcut";
+
+const routes = [ "About", "Projects", "Resume" ];
 
 const Home = () => {
     return (
@@ -15,6 +18,9 @@ const Home = () => {
                         of technologies, including Android development, web development, command-line tools, and scripting,
                         and have worked with a variety of programming languages such as Java, Python, JavaScript, and OCaml.
                     </p>
+                </div>
+                <div id="shortcutsContainer">
+                    {routes.map( (path) => <Shortcut path={path} />)}
                 </div>
             </div>
         </div>
