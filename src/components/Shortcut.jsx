@@ -10,9 +10,9 @@ const iconLibrary = {
 const Shortcut = ({ path }) => {
     return (
         <div className='shortcutContainer'>
-            <button>
+            <a href={"/" + path.toLowerCase()}>
                 <img src={iconLibrary[path]} alt={path} />
-            </button>
+            </a>
             <p className='shortcutText'>{path}</p>
         </div>
     )
