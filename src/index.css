@@ -168,8 +168,9 @@ footer {
 /* Home */
 
 #homepageContent {
-  flex: 80%;
   text-align: left;
+  width: 85%;
+  margin: auto;
 }
 
 #homepageDiv {
