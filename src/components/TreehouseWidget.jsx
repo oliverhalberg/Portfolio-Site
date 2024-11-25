@@ -38,7 +38,7 @@ const TreehouseWidget = () => {
                             <div id="pointDisplayContainer">
                                 {
                                     Object.keys(profileData.points).filter((val) => profileData.points[val] > 0)
-                                        .map((val) => <PointDisplay name={val} points={profileData.points[val]} />)
+                                        .map((val, i) => <PointDisplay name={val} points={profileData.points[val]} key={i} />)
                                 }
                             </div>
                         </div>
