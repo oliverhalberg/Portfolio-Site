@@ -1,11 +1,13 @@
 import PropTypes from 'prop-types';
 const Project = ({ data, reverse }) => {
     return (
-        <div className='project' style={{flexDirection: reverse? 'row-reverse' : 'row'}}>
+        <div className='project' style={{ flexDirection: reverse ? 'row-reverse' : 'row' }}>
             <div className='projectText'>
                 <h2>{data.title}</h2>
                 <h3>Technologies used:</h3>
-                {data.technologies.map((tech) => <span className='projectTech' key={tech}>{tech}</span>)}
+                <div className='projectTechContainer'>
+                    {data.technologies.map((tech) => <span className='projectTech' key={tech}>{tech}</span>)}
+                </div>
                 <p className='projectDescription'>{data.description}</p>
                 {/* Include link to source code on Github, if present */}
                 {data.githubLink ? <p><a href={data.githubLink} className='externalLink'>Github</a></p> : null}

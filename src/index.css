@@ -327,15 +327,29 @@ footer {
 }
 
 .projectText {
-  flex: 60%;
+  flex: 55%;
   margin: auto;
   text-align: center;
   padding: 1em;
 }
 
 .projectImgDiv {
-  flex: 40%;
+  flex: 45%;
   margin: auto;
+}
+
+.projectImg {
+  max-width: 100%;
+  max-height: fit-content;
+}
+
+.projectTechContainer {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
 }
 
 .projectTech {
