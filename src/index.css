@@ -139,7 +139,7 @@ footer {
 }
 
 #navbar a {
-  font-size: .95em;
+  font-size: 95%;
   color: var(--link-color);
   text-align: center;
   text-transform: uppercase;
@@ -344,6 +344,7 @@ footer {
   padding: 0.5em;
   border-radius: 1em;
   text-align: center;
+  box-shadow: 2px 1px 1px var(--main-primary);
 }
 
 .projectDescription {
