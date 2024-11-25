@@ -20,7 +20,7 @@ const Home = () => {
                     </p>
                 </div>
                 <div id="shortcutsContainer">
-                    {routes.map( (path) => <Shortcut path={path} />)}
+                    {routes.map( (path, i) => <Shortcut path={path} key={i} />)}
                 </div>
             </div>
         </div>
