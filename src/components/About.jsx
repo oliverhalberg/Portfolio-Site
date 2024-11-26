@@ -13,14 +13,14 @@ const About = () => {
                 <h3>Vassar College</h3>
                 <p className="dateRange">August 2020 - May 2024</p>
                 <div className="education">
-                    <div class="educationList">
+                    <div className="educationList">
                         <p>
                             Bachelor of Arts in Computer Science <br />
                             Correlate in French and Francophone Studies <br />
                             Graduated with Departmental and General Honors
                         </p>
                     </div>
-                    <div class="relevantCoursework">
+                    <div className="relevantCoursework">
                         <p>
                             <b>Relevant Coursework: </b>Computer Science I: Problem Solving and Abstraction, Computer Science II: Data Structures and Algorithms,
                             Foundations of Computer Science, Computer Organization, Theory of Computation,
