@@ -15,6 +15,10 @@
 /* Smaller screens */
 @media only screen and (max-width: 700px) {
 
+  p {
+    font-size: 85%;
+  }
+
   /* Menu/Navbar */
 
   /* TODO */
@@ -33,7 +37,7 @@
     margin: auto;
     padding: 1em;
   }
-   
+
 
   #shortcutsContainer {
     display: flex;
@@ -47,14 +51,36 @@
 
   /* About */
 
-  /* TODO */
+  #aboutContent {
+    flex-direction: column;
+  }
+
+  .aboutMe {
+    width: 85%;
+    margin: auto;
+  }
+
+  .education {
+    flex-direction: column;
+  }
+
+  /* Treehouse Widget */
+  #widgetFootnote {
+    font-style: italic;
+    text-align: center;
+    font-size: 60%;
+  }
+
+  #treehouseWidget {
+    flex-direction: column;
+  }
 
   /* Projects */
 
   /* TODO */
 
   /* Resume */
-  
+
   /* TODO */
 }
 
@@ -79,6 +105,7 @@ a {
   color: var(--default-link-color);
   text-decoration: inherit;
 }
+
 a:hover {
   color: var(--default-link-hover-color);
 }
@@ -104,20 +131,6 @@ button {
   background-color: #1a1a1a;
   cursor: pointer;
   transition: border-color 0.25s;
-}
-
-
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ededed;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
 }
 
 
@@ -169,6 +182,7 @@ footer {
   padding: 0.75em;
   text-align: center;
 }
+
 .externalLink:hover {
   background-color: var(--main-secondary);
   color: #fff;
@@ -198,7 +212,7 @@ footer {
 }
 
 .navbarLink {
-  display: inline; 
+  display: inline;
   padding: 0.5em;
 }
 
@@ -251,12 +265,13 @@ footer {
 }
 
 .aboutMe {
-  width: 45%;
+  width: 65%;
   margin: auto;
   text-align: center;
 }
 
-#aboutContent h2, h3 {
+#aboutContent h2,
+h3 {
   text-align: center;
 }
 
@@ -295,7 +310,7 @@ footer {
 }
 
 /* Treehouse Widget */
-#widgetFootnote{
+#widgetFootnote {
   font-style: italic;
   text-align: center;
   font-size: 80%;
@@ -327,7 +342,7 @@ footer {
   margin: 1em;
 }
 
-#pointsContainer p{
+#pointsContainer p {
   text-align: center;
 }
 

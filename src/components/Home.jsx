@@ -5,11 +5,6 @@ const routes = ["About", "Projects", "Resume"];
 const Home = () => {
     return (
         <div>
-            {
-                /*
-                <p>Thanks for visiting! I am currently in the process of building out this website using React. If you're interested, feel free to check out the source code <a href="https://github.com/oliverhalberg/Portfolio-Site">here</a>.</p>
-                */
-            }
             <div id="homepageDiv">
                 <h3 id="homepageTitle">Portfolio Website - Oliver Halberg</h3>
                 <div id="homepageContent">
