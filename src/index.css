@@ -10,6 +10,54 @@
   --tech-green: #37c25c;
 }
 
+/* Responsive Styling */
+
+/* Smaller screens */
+@media only screen and (max-width: 700px) {
+
+  /* Menu/Navbar */
+
+  /* TODO */
+
+  /* Home */
+
+  #homepageContent p {
+    text-align: center;
+    width: 65%;
+    margin: auto;
+  }
+
+  #homepageTitle {
+    text-align: center;
+    width: 90%;
+    margin: auto;
+    padding: 1em;
+  }
+   
+
+  #shortcutsContainer {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+  }
+
+  .shortcutContainer {
+    flex: auto;
+  }
+
+  /* About */
+
+  /* TODO */
+
+  /* Projects */
+
+  /* TODO */
+
+  /* Resume */
+  
+  /* TODO */
+}
+
 
 body {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
@@ -57,13 +105,7 @@ button {
   cursor: pointer;
   transition: border-color 0.25s;
 }
-button:hover {
-  border-color: #646cff;
-}
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
-}
+
 
 @media (prefers-color-scheme: light) {
   :root {
@@ -235,7 +277,7 @@ footer {
 .educationList {
   flex: 35%;
   text-align: left;
-  margin: 0 auto au;
+  margin: 0 auto auto;
 }
 
 .course-cert {

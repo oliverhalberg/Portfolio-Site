@@ -1,6 +1,6 @@
 import Shortcut from "./Shortcut";
 
-const routes = [ "About", "Projects", "Resume" ];
+const routes = ["About", "Projects", "Resume"];
 
 const Home = () => {
     return (
@@ -10,8 +10,8 @@ const Home = () => {
                 <p>Thanks for visiting! I am currently in the process of building out this website using React. If you're interested, feel free to check out the source code <a href="https://github.com/oliverhalberg/Portfolio-Site">here</a>.</p>
                 */
             }
-            <h3>Portfolio Website - Oliver Halberg</h3>
             <div id="homepageDiv">
+                <h3 id="homepageTitle">Portfolio Website - Oliver Halberg</h3>
                 <div id="homepageContent">
                     <p>
                         I am a recent computer science graduate seeking remote software development roles. I have experience with a variety
@@ -20,7 +20,7 @@ const Home = () => {
                     </p>
                 </div>
                 <div id="shortcutsContainer">
-                    {routes.map( (path, i) => <Shortcut path={path} key={i} />)}
+                    {routes.map((path, i) => <Shortcut path={path} key={i} />)}
                 </div>
             </div>
         </div>
