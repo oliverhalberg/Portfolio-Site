@@ -15,8 +15,24 @@
 /* Smaller screens */
 @media only screen and (max-width: 700px) {
 
-  p {
+  /* 
+    Note: I am aware that this CSS file is kind of a mess, and does not follow the principle of mobile-first
+    design. I learned a significant amount about CSS during the process of writing this, and by the time I 
+    learned better ways to organize and style it, I had already built it out enough that it wasn't worth it
+    at the time to try to refactor the file (and things started breaking when I tried). Hopefully later on I
+    will be able to properly restructure this file, but until then the messy structure remains.
+  */
+  p, h3 {
     font-size: 85%;
+  }
+
+  h2 {
+    font-size: 110%;
+  }
+
+  body {
+    width: 100%;
+    margin: auto;
   }
 
   /* Menu/Navbar */
