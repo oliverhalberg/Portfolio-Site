@@ -131,6 +131,7 @@ footer {
 
 #nameSpan {
   color: var(--link-color);
+  margin-left: -15%;
 }
 
 .menuBtn {
@@ -401,7 +402,7 @@ h3 {
     top: 50px;
     left: 0;
     width: 100%;
-    padding-block: 2rem;
+    padding-bottom: 0.3em;
     border: none;
     border-radius: 0.5em;
     background-color: var(--main-primary);
@@ -421,6 +422,7 @@ h3 {
     padding: 1rem;
     color: var(--link-color);
     background-color: var(--main-primary);
+    margin-top: 0.3em;
   }
 
   #navbar {
@@ -438,7 +440,7 @@ h3 {
   }
 
   #navbar li {
-    padding: 0.3em;
+    padding: 0.2em;
   }
 
   .navbarLink {
@@ -456,11 +458,16 @@ h3 {
     color: var(--link-color);
     text-align: center;
     border: solid var(--main-primary);
+    margin-top: 0.2em;
   }
 
   /* Applies filters to change the colors of the SVG images, since the ones I used were white and editing the file directly didn't work */
   .menuBtn img {
     filter: brightness(0%) saturate(0%) invert(0%) sepia(12%) saturate(408%) hue-rotate(97deg) brightness(87%) contrast(73%);
+  }
+
+  #nameSpan {
+    margin-left: -10%;
   }
 
   /* Home */
@@ -551,5 +558,12 @@ h3 {
     width: 85%;
     text-align: center;
     margin: auto;
+  }
+}
+
+/* Tweaks for tablet-sized screens */
+@media only screen and (max-width: 900px) {
+  #nameSpan {
+    margin-left: -5%;
   }
 }
