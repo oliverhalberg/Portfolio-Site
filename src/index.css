@@ -22,7 +22,8 @@
     at the time to try to refactor the file (and things started breaking when I tried). Hopefully later on I
     will be able to properly restructure this file, but until then the messy structure remains.
   */
-  p, h3 {
+  p,
+  h3 {
     font-size: 85%;
   }
 
@@ -98,6 +99,14 @@
   /* Resume */
 
   /* TODO */
+
+  /* Not Found */
+
+  #notFound {
+    width: 85%;
+    text-align: center;
+    margin: auto;
+  }
 }
 
 
@@ -443,4 +452,12 @@ h3 {
 #resumeDisplay {
   width: 85%;
   height: 1110px;
+}
+
+/* Not Found */
+
+#notFound {
+  width: 85%;
+  text-align: center;
+  margin: auto;
 }
