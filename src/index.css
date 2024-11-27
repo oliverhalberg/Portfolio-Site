@@ -46,18 +46,6 @@ h1 {
   line-height: 1.1;
 }
 
-button {
-  border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
-  font-weight: 500;
-  font-family: inherit;
-  background-color: #1a1a1a;
-  cursor: pointer;
-  transition: border-color 0.25s;
-}
-
 
 header {
   margin-bottom: 2em;
@@ -131,7 +119,7 @@ footer {
 
 #navbar a:hover,
 #navbar .active {
-  color: #fff;
+  color: var(--link-active-color);
   background: var(--main-secondary);
   transition: background-color 0.3s ease;
 }
@@ -143,6 +131,10 @@ footer {
 
 #nameSpan {
   color: var(--link-color);
+}
+
+.menuBtn {
+  display: none;
 }
 
 
@@ -384,6 +376,7 @@ h3 {
     max-width: 700px;
     width: 100%;
   }
+
   p,
   h3 {
     font-size: 85%;
@@ -400,7 +393,75 @@ h3 {
 
   /* Menu/Navbar */
 
-  /* TODO */
+  /* The responsive menu styling code was heavily inspired by and contains elements of code provided by Treehouse */
+
+  .nav {
+    position: absolute;
+    z-index: 50;
+    top: 50px;
+    left: 0;
+    width: 100%;
+    padding-block: 2rem;
+    border: none;
+    border-radius: 0.5em;
+    background-color: var(--main-primary);
+    transform: translateY(-150%);
+    transition: transform 0.3s ease;
+  }
+
+  .nav.open {
+    transform: translateX(0%);
+  }
+
+  header {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    color: var(--link-color);
+    background-color: var(--main-primary);
+  }
+
+  #navbar {
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    font-size: 150%;
+  }
+
+  #navbar .active {
+    color: var(--link-active-color);
+    background: none;
+    transition: background-color 0.3s ease;
+    padding: 0.3em;
+  }
+
+  #navbar li {
+    padding: 0.3em;
+  }
+
+  .navbarLink {
+    display: block;
+    margin: auto;
+    padding: 0;
+    background-color: none;
+    list-style: none;
+  }
+
+  .menuBtn {
+    display: block;
+    background-color: var(--main-primary);
+    transition: background-color 0.3s ease;
+    color: var(--link-color);
+    text-align: center;
+    border: solid var(--main-primary);
+  }
+
+  /* Applies filters to change the colors of the SVG images, since the ones I used were white and editing the file directly didn't work */
+  .menuBtn img {
+    filter: brightness(0%) saturate(0%) invert(0%) sepia(12%) saturate(408%) hue-rotate(97deg) brightness(87%) contrast(73%);
+  }
 
   /* Home */
 
