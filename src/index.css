@@ -447,7 +447,7 @@ h3 {
     display: block;
     margin: auto;
     padding: 0;
-    background-color: none;
+    background-color: transparent;
     list-style: none;
   }
 
@@ -522,6 +522,18 @@ h3 {
     flex-direction: column;
   }
 
+  #treehouseWidgetText {
+   padding: 0em;
+  }
+
+  #pointsContainer {
+    padding: 0em;
+  }
+
+  .pointDisplay {
+    padding: 0em;
+  }
+
   /* Projects */
 
   #projectsTitle {
@@ -566,4 +578,9 @@ h3 {
   #nameSpan {
     margin-left: -5%;
   }
+
+  .externalLink {
+    
+  }
+
 }

@@ -30,7 +30,7 @@ const TreehouseWidget = () => {
                     <div id="treehouseWidget">
                         <div id="treehouseWidgetText">
                             <p>{`Treehouse Username: ${profileData.profile_name}`}</p>
-                            <p><a href={profileData.profile_url} className="externalLink">Treehouse Profile</a></p>
+                            <p><a href={profileData.profile_url} className="externalLink">Profile</a></p>
                             <p>{`Badges: ${profileData.badges.length}`}</p>
                         </div>
                         <div id="pointsContainer">
