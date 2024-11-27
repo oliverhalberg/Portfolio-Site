@@ -76,7 +76,7 @@ footer {
   padding-bottom: 2em;
   margin: -2.5em auto 2em;
   background: var(--link-active-color);
-  border-radius: .5em;
+  border-radius: 0.5em;
   box-shadow: 0 3px rgba(0, 0, 0, .1);
   overflow: hidden;
 }
@@ -402,7 +402,8 @@ h3 {
     top: 50px;
     left: 0;
     width: 100%;
-    padding-bottom: 0.3em;
+    padding-top: 0.3em;
+    padding-bottom: 0.8em;
     border: none;
     border-radius: 0.5em;
     background-color: var(--main-primary);
@@ -483,6 +484,7 @@ h3 {
     width: 90%;
     margin: auto;
     padding: 1em;
+    font-size: 115%;
   }
 
 
@@ -577,10 +579,6 @@ h3 {
 @media only screen and (max-width: 900px) {
   #nameSpan {
     margin-left: -5%;
-  }
-
-  .externalLink {
-    
   }
 
 }
