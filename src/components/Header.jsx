@@ -14,7 +14,7 @@ const Header = () => {
                 aria-label='Navigation Menu'
                 aria-expanded={isOpen}
             >
-                <img src={isOpen ? "/src/data/icons/close_menu.svg" : "/src/data/icons/open_menu.svg"} />
+                <img src={isOpen ? "/icons/close_menu.svg" : "/icons/open_menu.svg"} />
             </button>
             <nav className={`nav ${isOpen ? 'open' : ''}`}>
                 <ul id="navbar">
