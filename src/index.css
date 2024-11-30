@@ -219,7 +219,7 @@ h3 {
 }
 
 .relevantCoursework {
-  flex: 65%;
+  flex: 60%;
 }
 
 #workExperience {
@@ -338,6 +338,7 @@ h3 {
 
 .projectDescription {
   text-align: left;
+  margin-bottom: 1.5em;
 }
 
 /* Resume */
