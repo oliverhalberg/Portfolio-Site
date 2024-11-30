@@ -4,12 +4,12 @@ import { NavLink } from 'react-router-dom';
 
 /* Library object matching paths to icons */
 const iconLibrary = {
-    "About": "/src/data/icons/id-card-black.svg",
-    "About-white": "/src/data/icons/id-card-white.svg",
-    "Projects": "/src/data/icons/computer-screen-black.svg",
-    "Projects-white": "src/data/icons/computer-screen-white.svg",
-    "Resume": "/src/data/icons/resume-black.svg",
-    "Resume-white": "/src/data/icons/resume-white.svg"
+    "About": "/icons/id-card-black.svg",
+    "About-white": "/icons/id-card-white.svg",
+    "Projects": "/icons/computer-screen-black.svg",
+    "Projects-white": "/icons/computer-screen-white.svg",
+    "Resume": "/icons/resume-black.svg",
+    "Resume-white": "/icons/resume-white.svg"
 }
 
 const Shortcut = ({ path }) => {
