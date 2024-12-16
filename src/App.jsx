@@ -19,7 +19,7 @@ function App() {
           <Route path='/projects' element={<Projects />} />
           <Route path='/resume' element={<ResumeDisplay />} />
           {/* This might not be the cleanest solution, but it solves a problem where React Router would try to handle a request from the <object> tag in the ResumeDisplay component. */}
-          <Route path='/pdfs/oliverhalberg.pdf#zoom=100%' element={<Navigate replace to={'https://oliverhalberg.com/resume-files/oliverhalberg.pdf'} />} />
+          <Route path='/pdfs/oliverhalberg.pdf*' element={<Navigate replace to={'https://oliverhalberg.com/pdfs/oliverhalberg.pdf'} />} />
           <Route path='*' element={<NotFound />} />
         </Routes>
       </main>
