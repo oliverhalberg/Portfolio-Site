@@ -1,11 +1,10 @@
 //for whatever reason, the automatic zoom looks bad on larger screen sizes - it adds a small white bar to the right of the pdf
 const pdfpath = "/pdfs/oliverhalberg.pdf#zoom=100%";
 //when running in dev, this works without issue
-//on the built site, this component displays the website inside of it instead,
+//on the built site, this component usually works,
+// but sometimes there's an error where it displays the website inside of it instead, 
 // displaying the NotFound component.
-// potential fixes:
-// - replace the <object> tags with Document from 'react-pdf'
-// - I think that the <object> tag's data property is being read by React Router as a path starting from root. restructure files?
+//I'm not sure why this happens, and it resolved itself the last time it occurred.
 
 const ResumeDisplay = () => {
     return (
