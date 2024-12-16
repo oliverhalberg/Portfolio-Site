@@ -1,4 +1,4 @@
-import { Routes, Route } from 'react-router-dom'
+import { Routes, Route, Navigate } from 'react-router-dom'
 import './App.css'
 import Header from './components/Header'
 import Home from './components/Home'
@@ -18,6 +18,8 @@ function App() {
           <Route path='/about' element={<About />} />
           <Route path='/projects' element={<Projects />} />
           <Route path='/resume' element={<ResumeDisplay />} />
+          {/* This might not be the cleanest solution, but it solves a problem where React Router would try to handle a request from the <object> tag in the ResumeDisplay component. */}
+          <Route path='/pdfs/oliverhalberg.pdf#zoom=100%' element={<Navigate replace to={'https://oliverhalberg.com/resume-files/oliverhalberg.pdf'} />} />
           <Route path='*' element={<NotFound />} />
         </Routes>
       </main>
