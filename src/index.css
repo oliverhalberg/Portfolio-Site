@@ -353,6 +353,11 @@ h3 {
   display: none;
 }
 
+#resumeLinkText {
+  font-style: italic;
+  font-size: 80%;
+}
+
 /* Not Found */
 
 #notFound {
