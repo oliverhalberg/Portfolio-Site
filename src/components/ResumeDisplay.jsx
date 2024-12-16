@@ -13,6 +13,7 @@ const ResumeDisplay = () => {
             <object id="resumeDisplay" data={pdfpath} type="application/pdf">
                 <p>Something went wrong, sorry!</p>
             </object>
+            <p id="resumeLinkText">If the PDF viewer isn't working, click <a href="https://oliverhalberg.com/resume-files/oliverhalberg.pdf">here</a>.</p>
         </div>
     );
 }
