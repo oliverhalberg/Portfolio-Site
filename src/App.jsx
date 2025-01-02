@@ -1,12 +1,12 @@
 import { Routes, Route, Navigate } from 'react-router-dom'
 import './App.css'
-import Header from './components/Header'
-import Home from './components/Home'
-import Footer from './components/Footer'
-import About from './components/About'
-import Projects from './components/Projects'
-import ResumeDisplay from './components/ResumeDisplay'
-import NotFound from './components/NotFound'
+import Header from './components/Header.jsx'
+import Home from './components/Home.jsx'
+import Footer from './components/Footer.jsx'
+import About from './components/About.jsx'
+import Projects from './components/Projects.jsx'
+import ResumeDisplay from './components/ResumeDisplay.jsx'
+import NotFound from './components/NotFound.jsx'
 
 function App() {
   return (

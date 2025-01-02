@@ -1,4 +1,4 @@
-import Shortcut from "./Shortcut";
+import Shortcut from "./Shortcut.jsx";
 
 const routes = ["About", "Projects", "Resume"];
 

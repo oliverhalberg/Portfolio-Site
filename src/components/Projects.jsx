@@ -1,5 +1,5 @@
 import projectsList from "../data/projects-list.json";
-import Project from "./Project";
+import Project from "./Project.jsx";
 
 const projects = projectsList.projects;
 

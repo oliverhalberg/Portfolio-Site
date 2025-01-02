@@ -1,4 +1,4 @@
-import TreehouseWidget from "./TreehouseWidget";
+import TreehouseWidget from "./TreehouseWidget.jsx";
 
 const About = () => {
     return (

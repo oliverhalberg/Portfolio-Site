@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import axios from "axios";
-import PointDisplay from "./PointDisplay";
+import PointDisplay from "./PointDisplay.jsx";
 
 const profileURL = "https://teamtreehouse.com/profiles/oliverhalberg.json";
 
