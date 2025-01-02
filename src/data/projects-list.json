@@ -6,7 +6,8 @@
             "technologies": ["Java"],
             "description": "In tabletop role-playing games such as Dungeons and Dragons, it is often useful to have a tool to keep track of the order of combat turns, also known as \"initiative\". Many such tools exist, but I wanted to try making my own. To keep the scale of the project manageable, I designed a minimal text-based user interface that allows users to add and remove turns, display them in order, and step through turns individually.",
             "githubLink": "https://github.com/oliverhalberg/InitiativeTracker",
-            "imgPath": "/project-images/initiativetracker.png"
+            "imgPath": "/project-images/initiativetracker.png",
+            "alt-text": "A screenshot of a terminal running the text-based Initative Tracker tool."
         },
         {
             "id": 1,
@@ -14,7 +15,8 @@
             "technologies": ["Java", "Android Studio", "Git", "PlantUML"],
             "description": "In spring 2023, I took a software development class at Vassar College (Computer Science III: Software Design and Implementation) that focused on Android development in groups. My partner for the course, Caroline Semel, and I designed, developed, and tested different iterations of our project until we reached the final result: a fully functional combat/adventure game in the form of an Android application.",
             "githubLink": "https://github.com/oliverhalberg/Shape-Quest",
-            "imgPath": "/project-images/shapequest.png"
+            "imgPath": "/project-images/shapequest.png",
+            "alt-text": "A screenshot of the app running on Android Studio's emulator."
 
         },
         {
@@ -23,8 +25,8 @@
             "technologies": ["HTML", "CSS", "JavaScript", "React", "React Router"],
             "description": "I created a personal portfolio website (oliverhalberg.com) using React to showcase my experience and projects. Using example code from Treehouse courses as reference material, I designed, created, and styled the custom React components I needed to assemble the website.",
             "githubLink": "https://github.com/oliverhalberg/Portfolio-Site",
-            "imgPath": "/project-images/oliverhalbergdotcom.png"
-
+            "imgPath": "/project-images/oliverhalbergdotcom.png",
+            "altText": "A screenshot of the home page of this website."
         }
     ]
 }

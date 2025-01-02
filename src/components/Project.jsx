@@ -13,7 +13,7 @@ const Project = ({ data, reverse }) => {
                 {data.githubLink ? <p><a href={data.githubLink} className='externalLink'>Github</a></p> : null}
             </div>
             <div className='projectImgDiv'>
-                <img src={data.imgPath} className='projectImg' />
+                <img src={data.imgPath} className='projectImg' alt={data.altText} />
             </div>
         </div>
     );
