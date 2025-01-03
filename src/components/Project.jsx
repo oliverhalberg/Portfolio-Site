@@ -28,6 +28,7 @@ Project.propTypes = {
         title: PropTypes.string.isRequired,
         description: PropTypes.string.isRequired,
         githubLink: PropTypes.string,
-        imgPath: PropTypes.string.isRequired
+        imgPath: PropTypes.string.isRequired,
+        altText: PropTypes.string.isRequired
     })
 }
