@@ -14,3 +14,4 @@ Elements of code and styling are based off materials provided by Treehouse as pa
 - v1.1: November 30, 2024 (first full version of website)
 - v1.2: December 16, 2024 (fixed issue with the embedded resume pdf not displaying properly)
 - v1.3: January 2, 2025 (added alt text to Projects page images)
+- v1.3.1: January 30, 2025 (added a new project to Projects page)
