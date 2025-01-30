@@ -27,6 +27,15 @@
             "githubLink": "https://github.com/oliverhalberg/Portfolio-Site",
             "imgPath": "/project-images/oliverhalbergdotcom.png",
             "altText": "A screenshot of the home page of this website."
+        },
+        {
+            "id": 3,
+            "title": "Initiative Tracker (GUI)",
+            "technologies": ["JavaScript", "CSS", "React", "Electron", "Electron Builder"],
+            "description": "I revisited my earlier Initiative Tracker project, upgrading it to have a graphical user interface and some improved functionality. For this new version, I rewrote the logic in JavaScript and used custom React components to create a front end for the project. Since I wanted the tool to be accessible offline, I used the Electron framework to create a desktop app for the project and packaged it for distribution using Electron Builder. This project is currently undergoing beta testing. Development is ongoing, and new features will be added over the next few weeks as I work towards a full release.",
+            "githubLink": "https://github.com/oliverhalberg/InitiativeTracker-GUI",
+            "imgPath": "/project-images/initiativetracker-gui-beta.png",
+            "alt-text": "A screenshot of the app's beta layout, showing an example turn order."
         }
     ]
 }
