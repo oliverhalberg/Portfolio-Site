@@ -296,6 +296,11 @@ h3 {
   color: var(--link-active-color);
 }
 
+#projectsSubtitle {
+  font-style: italic;
+  font-size: 90%;
+}
+
 .project {
   display: flex;
   padding: 0.5em;
