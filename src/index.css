@@ -133,6 +133,10 @@ footer {
   color: var(--link-color);
   margin-left: -15%;
 }
+#headerName {
+  color: var(--link-color);
+  font-style: bold;
+}
 
 .menuBtn {
   display: none;

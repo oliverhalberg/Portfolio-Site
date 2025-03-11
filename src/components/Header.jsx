@@ -7,7 +7,7 @@ const Header = () => {
 
     return (
         <header>
-            <span id="nameSpan">Oliver Halberg</span>
+            <span id="nameSpan"><NavLink to='/' id="headerName"><b>Oliver Halberg</b></NavLink></span>
             <button
                 className="menuBtn"
                 onClick={() => setIsOpen(!isOpen)}
