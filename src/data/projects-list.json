@@ -32,7 +32,7 @@
             "id": 3,
             "title": "Initiative Tracker (GUI)",
             "technologies": ["JavaScript", "CSS", "React", "Electron", "Electron Builder"],
-            "description": "I revisited my earlier Initiative Tracker project, upgrading it to have a graphical user interface, color themes, and some improved functionality. I rewrote the logic in JavaScript and used custom React components to create a front end for the project, then used the Electron framework to create a desktop app for the project and packaged it for distribution using Electron Builder. In the process, I learned the basics of Electron.js and application packaging and gained additional practice with troubleshooting. The full release is available to download from the project's Github page.",
+            "description": "I revisited my earlier Initiative Tracker project, upgrading it to have a graphical user interface, color themes, and some improved functionality. I rewrote the logic in JavaScript and used custom React components to create a front end for the project, then used the Electron framework to create a desktop app for the project and packaged it for distribution using Electron Builder. In the process, I learned the basics of Electron.js and application packaging and gained additional practice with troubleshooting. The full release is available to download from the project's GitHub page.",
             "githubLink": "https://github.com/oliverhalberg/InitiativeTracker-GUI",
             "imgPath": "/project-images/initiativetracker-gui-beta.png",
             "alt-text": "A screenshot of the app's layout, showing an example turn order."

@@ -10,7 +10,7 @@ const Project = ({ data, reverse }) => {
                 </div>
                 <p className='projectDescription'>{data.description}</p>
                 {/* Include link to source code on Github, if present */}
-                {data.githubLink ? <p><a href={data.githubLink} className='externalLink'>Github</a></p> : null}
+                {data.githubLink ? <p><a href={data.githubLink} className='externalLink'>GitHub</a></p> : null}
             </div>
             <div className='projectImgDiv'>
                 <img src={data.imgPath} className='projectImg' alt={data.altText} />
