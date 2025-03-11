@@ -1,4 +1,5 @@
 import Shortcut from "./Shortcut.jsx";
+import Notice from "./Notice.jsx";
 
 const routes = ["About", "Projects", "Resume"];
 
@@ -6,6 +7,7 @@ const Home = () => {
     return (
         <div>
             <div id="homepageDiv">
+                <Notice />
                 <h3 id="homepageTitle">Portfolio Website - Oliver Halberg</h3>
                 <div id="homepageContent">
                     <p>
