@@ -45,6 +45,15 @@ const About = () => {
             <div id="workExperience">
                 <h2>Relevant Work Experience</h2>
                 <div className="work">
+                    <h3>Teaching Assistant, Project STEM</h3>
+                    <p className="dateRange">April 2025 - Present</p>
+                    <p>
+                        In this position, I answer questions posted to online forums by teachers and students enrolled in three of Project STEM's high school courses
+                        (AP Computer Science A, AP Computer Science Principles, and CS Python Fundamentals). I primarily help to explain concepts and debug and 
+                        troubleshoot code, as well as assisting in resolving and escalating issues related to course materials. 
+                    </p>
+                </div>
+                <div className="work">
                     <h3>Computer Science Department Coach, Vassar College</h3>
                     <p className="dateRange">September 2022 - May 2024</p>
                     <p>
