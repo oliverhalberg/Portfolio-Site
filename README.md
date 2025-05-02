@@ -17,3 +17,4 @@ Elements of code and styling are based off materials provided by Treehouse as pa
 - v1.3.1: January 30, 2025 (added a new project to Projects page)
 - v1.3.2: March 13, 2025 (added a temporary notice to the Home page informing visitors of my primary email address change, updated a project on the Projects page)
 - v1.3.3: April 7, 2025 (added a new project to Projects page)
+- v1.3.4: May 2, 2025 (added work experience to About page)
