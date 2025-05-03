@@ -4,7 +4,7 @@ This repository contains the source code for [oliverhalberg.com](https://oliverh
 
 Elements of code and styling are based off materials provided by Treehouse as part of courses and workshops.
 
-### Last live site update: 5/2/2025
+### Last live site update: 5/3/2025
 
 ### Known issues
 - While it is technically mobile-friendly, the site still has larger margins on the sides than I would like when viewed on smaller screens.
@@ -18,3 +18,4 @@ Elements of code and styling are based off materials provided by Treehouse as pa
 - v1.3.2: March 13, 2025 (added a temporary notice to the Home page informing visitors of my primary email address change, updated a project on the Projects page)
 - v1.3.3: April 7, 2025 (added a new project to Projects page)
 - v1.3.4: May 2, 2025 (added work experience to About page)
+- v1.3.4.1: May 3, 2025 (updated wording for work experience added in last update)
