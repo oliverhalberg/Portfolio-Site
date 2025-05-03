@@ -45,7 +45,7 @@ const About = () => {
             <div id="workExperience">
                 <h2>Relevant Work Experience</h2>
                 <div className="work">
-                    <h3>Teaching Assistant, Project STEM</h3>
+                    <h3>Teaching Assistant, Project STEM (part-time position)</h3>
                     <p className="dateRange">April 2025 - Present</p>
                     <p>
                         In this position, I answer questions posted to online forums by teachers and students enrolled in three of Project STEM's high school courses
