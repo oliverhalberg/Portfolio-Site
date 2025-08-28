@@ -19,4 +19,4 @@ Elements of code and styling are based off materials provided by Treehouse as pa
 - v1.3.3: April 7, 2025 (added a new project to Projects page)
 - v1.3.4: May 2, 2025 (added work experience to About page)
 - v1.3.4.1: May 3, 2025 (updated wording for work experience added in last update)
-- v1.3.4.2: August 28, 2025 (removed temporary notice on the Home page, added date of last site update to the footer)
+- v1.3.5: August 28, 2025 (removed temporary notice on the Home page, added date of last site update to the footer)
