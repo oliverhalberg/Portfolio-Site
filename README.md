@@ -4,7 +4,7 @@ This repository contains the source code for [oliverhalberg.com](https://oliverh
 
 Elements of code and styling are based off materials provided by Treehouse as part of courses and workshops.
 
-### Last live site update: 5/3/2025
+### Last live site update: 8/28/2025
 
 ### Known issues
 - While it is technically mobile-friendly, the site still has larger margins on the sides than I would like when viewed on smaller screens.
